@@ -1,0 +1,41 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+.line-maker{
+    border-left: 7px solid rgb(245 150 96);
+}
+.name-highlight{
+    color: rgb(71, 124, 240);
+}
+.link-button{
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg, rgb(71, 124, 240), tomato);
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    
+}
+.half-width{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.half-width img{
+    width: 70%;
+}
+.gap-in-both{
+    margin: 40px 0 50px 0;
+}
