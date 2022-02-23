@@ -2,6 +2,7 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .flex-part{
     display: flex;
@@ -57,4 +58,43 @@ p{
 }
 .mission-vission-goal img{
     width: 40%;
+}
+.develop-part-flex{
+    display: flex;
+    padding-bottom: 4%;
+}
+.half-develop-width{
+    width: 20%;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+.half-develop-width img{
+    width: 130%;
+}
+.followers{
+    box-shadow: 10px 10px 30px gray;
+    display: flex;
+    width: 50%;
+    height: 150px;
+    margin-left: 25%;
+    margin-bottom: 60px
+}
+.numbers-of-follower{
+    width: 40%;
+    text-align: center;
+}
+.numbers-font{
+    font-size: 40px;
+    font-weight: 700;
+}
+small{
+    color: gray;
+}
+footer{
+    text-align: center;
+    border: 2px solid;
+    margin-top: 5%;
+    padding: 2% 0 5% 0;
+    color: white;
+    background-color: black;
 }
