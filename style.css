@@ -3,11 +3,15 @@ body{
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
 }
-section{
+.flex-part{
     display: flex;
+    padding-bottom: 2%;
 }
 h1{
     font-size: 50px;
+}
+h3{
+    font-size: 30px;
 }
 p{
     font-size: 20px;
@@ -22,7 +26,7 @@ p{
     text-decoration: none;
     border: 2px solid;
     padding: 10px 30px;
-    background-image: linear-gradient(45deg, rgb(71, 124, 240), tomato);
+    background-image: linear-gradient(45deg, rgb(71, 124, 240), rgb(245 150 96));
     color: white;
     font-weight: 900;
     border-radius: 10px;
@@ -30,7 +34,7 @@ p{
 }
 .half-width{
     width: 50%;
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 5%;
 }
 .half-width img{
@@ -38,4 +42,19 @@ p{
 }
 .gap-in-both{
     margin: 40px 0 50px 0;
+}
+.text-position-center{
+    text-align: center;
+}
+.mission-vission-goal{
+    width: 22%;
+    height: 400px;
+    text-align: justify;
+    margin-left: 3%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgb(255 238 238);
+}
+.mission-vission-goal img{
+    width: 40%;
 }
